@@ -1,0 +1,77 @@
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body{
+margin: 0;
+}
+.mainhead1{
+  color:black;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+.mainbutton1{
+  background:none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 1rem;
+  cursor: pointer;
+  color: var(--col1);
+}
+.mainbutton1:hover{
+  background-color:aqua;
+  color: white;
+  transform: scale(1.1);
+  transition: all 0.6s ease-in-out;
+}
+.Account{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  
+}
+.Account h1{
+  padding: 10px 20px;
+}
+
+.Account .form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+
+}
+.Account .form .form-group{
+
+display: flex;
+flex-direction: column;
+width: 50%;
+margin: 10px;
+}.Account .form .form-group label{
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.Account .form .form-group input{
+  padding: 10px 20px ;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 5px;
+  outline: none;
+
+}
+.dis{
+  display: flex;
+  justify-items: center;
+
+}
